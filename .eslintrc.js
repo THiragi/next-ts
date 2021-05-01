@@ -14,8 +14,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier',
-    'prettier/@typescript-eslint',
-    'prettier/react',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -91,15 +89,7 @@ module.exports = {
         extensions: ['.jsx', '.tsx'],
       },
     ],
-    'react/jsx-props-no-spreading': [
-      'off',
-      // 'error',
-      // {
-      //   html: 'enforce',
-      //   custom: 'enforce',
-      //   explicitSpread: 'ignore',
-      // },
-    ],
+    'react/jsx-props-no-spreading': ['off'],
     'react/react-in-jsx-scope': 'off',
     'prefer-arrow/prefer-arrow-functions': [
       'error',
