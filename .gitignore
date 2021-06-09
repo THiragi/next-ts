@@ -32,5 +32,12 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+# aspida
+/src/api/$*.ts
+
 # vercel
 .vercel
+
+# vscode
+.vscode
+*.code-workspace
